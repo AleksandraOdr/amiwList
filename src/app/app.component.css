@@ -1,0 +1,98 @@
+.thoughts {
+  background-image: url('/assets/images/feathers.png');
+  background-repeat: no-repeat;
+  background-color: #D8D8D8;
+  position: absolute;
+  top: 50%;
+  margin-right: 4px;
+  left: 50%;
+  margin-left: 5px;
+  margin-top: 3px;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border: 5px;
+  padding: 10px;
+  border-style: double;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #FEDBD0;
+  text-shadow: 3px 3px #442C2E;
+}
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #442C2E;
+  text-shadow: 1px 1px #FEDBD0;
+  font-size: 120%;
+}
+
+.inputAndButton {
+  margin-top: 30px;
+  margin-left: 20px;
+  text-align:center;
+
+}
+
+.btn {
+  display:inline-block;
+  border: none;
+  font-size: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 15px 30px;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+
+.btn:after {
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-2 {
+  background: #442C2E;
+  color: #FEDBD0;
+  box-shadow: 0 6px #FEDBD0;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.addButton {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.addButton:hover {
+  box-shadow: 0 4px #FEDBD0;
+  top: 2px;
+}
+
+.addButton:active {
+  box-shadow: 0 0 #FEDBD0;
+  top: 2px;
+}
+
+input {
+  display:inline-block;
+  height: 35px;
+  width: 200px;
+  margin-left: 5px;
+  background-color: #FEDBD0;
+  outline: none;
+  border-radius: 10px;
+}
