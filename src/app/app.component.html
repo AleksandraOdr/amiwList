@@ -1,16 +1,17 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="thoughts">
   <h1>Złote myśli:</h1>
-  <li *ngFor="let item of thoughts; let i index">
-    {{item.name}}
+  <li *ngFor="let item of thoughts; let i=index"  >
+    <span> {{item.name}} </span>
+    <button (click)="onDelete(i)" class="remove"><i class="fa fa-trash"></i></button>
   </li>
-
 
 <div class="inputAndButton">
 
   <input type="text"
          [(ngModel)]="item"
   >
-
   <button class="btn btn-2 addButton" (click)="onDigitClick()">+</button>
 
 </div>

@@ -95,3 +95,11 @@ input {
   outline: none;
   border-radius: 10px;
 }
+.remove{
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #FEDBD0;
+}
+li[button]:hover{
+  opacity: 0.9;
+}

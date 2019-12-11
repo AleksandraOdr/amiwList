@@ -13,6 +13,9 @@ export class AppComponent {
   onDigitClick() {
     this.thoughts.push({name: this.item});
     this.item = '';
+  }
 
+  onDelete(index) {
+    this.thoughts.splice(index, 1);
   }
 }
